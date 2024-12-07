@@ -1,0 +1,83 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Setting up basic page styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Light background for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333; /* Dark text color for readability */
+  }
+  
+  /* Styling the payment container */
+  .payment-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Heading styling with restaurant branding */
+  h1 {
+    color: #FF6600; /* Restaurant primary color: Orange */
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Form container and input styling */
+  .payment-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .payment-form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .payment-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Submit button styling with brand colors */
+  .submit-btn {
+    background-color: #FF6600; /* Orange background */
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e65c00; /* Darker orange on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .payment-container {
+      padding: 20px;
+      max-width: 350px;
+    }
+  }
+  
